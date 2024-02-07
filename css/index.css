@@ -45,8 +45,8 @@ a{
 }
 
 .size-bar{
-    width: 90vw;
-    height: 10vh;
+    min-width: 1692px;
+    min-height: 100px;
     position: absolute;
     background-color: rgb(10, 10, 40);
     margin-left: 140px;
@@ -58,14 +58,33 @@ a{
     
 }
 
+.gap-120{
+    gap: 200px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+.position-list{
+    list-style: none;
+    margin-left: 38px;
+    border-left: 4px solid white;
+    padding: 5px;
+}
+.p-40{
+    padding: 40px;
+}
 .btn-decoration{
     padding: 20px;
     margin-right: 60px;
     border-radius: 30px;
 }
-
+.fs-30{
+font-size: 30px;
+}
 .footer-size{
-    height: 15vh;
+    min-height: 120px;
+    width: 100%;
 }
 
 .jc-space-between{
@@ -83,6 +102,20 @@ a{
 
 .p-20{
     padding: 20px;
+}
+
+.list-2{
+    margin-left: 45px;
+    margin-top: -40px;
+}
+.size-main{
+    background-color: blue;
+    position: absolute;
+    left: 180px;
+    bottom: 124px;
+    height: calc(100% - 100px - 120px );
+    width: calc(100% - 180px);
+
 }
 /*COLOR AND BG COLOR*/
 
