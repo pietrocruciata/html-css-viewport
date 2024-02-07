@@ -1,0 +1,102 @@
+/*RESEST*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*LAYOUT*/
+
+.fs-xxl{
+    font-size: xx-large;
+}
+
+.flex{
+    display: flex;
+}
+
+.fd-column{
+    flex-direction: column;
+}
+
+.header-size{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 85vh;
+    gap: 30px;
+    padding: 40px;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.myprofile-position{
+    position: absolute;
+    bottom: 40px;
+}
+
+.size-bar{
+    width: 90vw;
+    height: 10vh;
+    position: absolute;
+    background-color: rgb(10, 10, 40);
+    margin-left: 140px;
+    margin-top: -40px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.btn-decoration{
+    padding: 20px;
+    margin-right: 60px;
+    border-radius: 30px;
+}
+
+.footer-size{
+    height: 15vh;
+}
+
+.jc-space-between{
+    justify-content: space-between;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+.text-link{
+    gap: 30px;
+    list-style: none;
+}
+
+.p-20{
+    padding: 20px;
+}
+/*COLOR AND BG COLOR*/
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-white{
+    background-color: white;
+}
+.c-black{
+    color: black;
+}
+
+.bg-grey{
+    background-color: grey;
+}
