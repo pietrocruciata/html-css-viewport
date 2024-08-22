@@ -57,10 +57,6 @@ a{
     align-items: center;
     
 }
-
-.gap-120{
-    gap: 200px;
-}
 .wrap{
     flex-wrap: wrap;
 }
